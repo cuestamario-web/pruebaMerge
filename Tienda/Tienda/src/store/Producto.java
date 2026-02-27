@@ -22,7 +22,7 @@ public class Producto {
     }
 
     public void setPrecio(double precio) {
-        this.precio = precio;
+    this.precio = Math.round(precio);
     }
 
     public void setCantidad(int cantidad) {
@@ -62,3 +62,4 @@ public class Producto {
 
 
 }
+
